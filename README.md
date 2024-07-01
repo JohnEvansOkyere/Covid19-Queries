@@ -1,7 +1,12 @@
 # Covid19-Queries
 
 # COVID-19 Queries in Ghana
+
+## Project Description
+
+This project aims to analyze the impact and spread of COVID-19 in Ghana using SQL queries. By leveraging data from the COVID-19 dataset, we seek to uncover insights into various aspects of the pandemic, including infection rates, death rates, and their correlation with the population. The analysis will help in understanding the trends and effects of COVID-19 in Ghana compared to other countries and continents.
 General Data Query
+
 SELECT * 
 FROM covid19.coviddeathsdata
 WHERE continent IS NOT NULL
